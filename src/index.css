@@ -17,7 +17,7 @@ body{
 
 .center_div{
   background: white;
-  height: 50vh;
+  height: 70vh;
   width: 50vh;
   border-radius: 20px;
   box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
@@ -27,10 +27,11 @@ body{
 }
 .center_div h1{
   text-align: center;
-  background: #4f4fab;
-  color: white;
-  padding: 2px;
-  margin: 30px 0px;
+    background: #4f4fab;
+    color: white;
+    padding: 19px;
+    margin: 30px 0px;
+    font-size: 3rem;
 }
 .btn_div{
   display: flex;
@@ -39,15 +40,27 @@ body{
   padding: 14px 0px;
 }
 .btn_div button{
-  background: #4f4fab;
-  color: white;
+  /* background: #4f4fab; */
+  color: black;
   padding: 7px;
   border: none;
   border-radius: 11px;
+  box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
+  padding: 20px;
 }
 .btn_green:hover{
-  background-color: green;
+  /* background-color: #a5d168; */
+  color: green;
 }
 .btn_red:hover{
-background-color: red;
+/* background-color: #a5d168; */
+color: red;
+}
+.digital-clock { 
+  font-size: 3em; /*To change the size of the numbers*/
+  max-width: 250px;  /*To change the widt of the clock*/
+  text-align: center; 
+  border: 2px solid black; /*To change the border around the clock*/
+  border-radius: 20px; /*To change how round the edges are*/
+  background-color: white; /*To change the background color of the clock*/
 }
