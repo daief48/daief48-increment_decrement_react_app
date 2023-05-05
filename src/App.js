@@ -1,5 +1,6 @@
 import { useState } from "react";
-import HomeIcon from '@material-ui/icons/Home';
+import AddIcon from '@mui/icons-material/Add';
+import DeleteIcon from '@mui/icons-material/Delete';
 function App() {
   const [num,setNum] = useState(0);
   const incNum = () => {
@@ -19,8 +20,8 @@ function App() {
       <div className="center_div">
         <h1> {num}</h1>
         <div className="btn_div">
-          <button onClick={incNum}><HomeIcon/></button>
-          <button onClick={decNum}>Decrement</button>
+          <button onClick={incNum} className="btn_green"><AddIcon/></button>
+          <button onClick={decNum} className="btn_red"><DeleteIcon/></button>
         </div>
       </div>
     </div>
